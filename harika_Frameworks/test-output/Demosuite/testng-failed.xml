@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Demosuite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Orangehrmlaunchup(failed)">
+    <classes>
+      <class name="day1test.Orangehrm">
+        <methods>
+          <include name="launchapp"/>
+          <include name="verify"/>
+        </methods>
+      </class> <!-- day1test.Orangehrm -->
+    </classes>
+  </test> <!-- Orangehrmlaunchup(failed) -->
+</suite> <!-- Failed suite [Demosuite] -->
