@@ -16,6 +16,7 @@ public class Frameworks {
 		driver.findElement(By.className("gLFyf")).sendKeys("filmemoji",Keys.ENTER);
 		System.out.println(driver.getTitle());
 		System.out.println("add test");
+		System.out.println("add new test");
 		Thread.sleep(3000);
 	}
 		
